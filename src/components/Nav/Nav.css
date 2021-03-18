@@ -1,0 +1,23 @@
+.nav_bar {
+}
+.nav_bar ul {
+  list-style: none;
+  display: flex;
+  justify-content: space-around;
+  color: rgb(255, 255, 255);
+  font-weight: 500;
+  margin: auto auto 0px auto;
+}
+.nav_bar ul li {
+  /* display: inline-block; */
+  cursor: pointer;
+}
+.link_style {
+  color: rgb(255, 255, 255);
+  transition: all 0.3s;
+}
+.link_style:hover {
+  text-decoration: none;
+  /* background: #000; */
+  color: rgb(41, 41, 41);
+}

@@ -1,0 +1,40 @@
+.login-container {
+  background-image: linear-gradient(rgba(0, 0, 0, 0.233), rgba(0, 0, 0, 0.637)),
+    url(../../img/log.jpg);
+  height: 92vh;
+  background-size: cover;
+}
+.login-container-box {
+}
+.login-container-box label {
+  transform: translate(-330px, -25px);
+  transition: all 0.3s;
+}
+.login-container-box input:placeholder-shown + label {
+  transform: translate(-330px, 0px);
+  visibility: hidden;
+}
+.login-container-box input {
+  width: 340px;
+  height: 75px;
+  margin-bottom: 20px;
+  border: 0;
+  border-radius: 3px;
+  padding-left: 10px;
+  padding-top: 0px;
+  outline: none;
+}
+.login-container-box input:focus {
+  background: rgb(255, 236, 236);
+}
+.login-container-box input.submit {
+  color: rgb(255, 255, 255);
+  background-color: black;
+}
+.login-container-box p {
+  width: 340px;
+}
+
+.my:hover {
+  text-decoration: none;
+}
